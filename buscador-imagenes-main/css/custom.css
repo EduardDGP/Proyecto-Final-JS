@@ -4,3 +4,80 @@ body {
   background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
 }
+
+/* Estilos Generales */
+body {
+  background-color: #f3f4f6;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Estilos del Encabezado */
+h1 {
+  color: #333;
+}
+
+/* Estilos del Buscador */
+.buscador {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.buscador label {
+  font-size: 1.1rem;
+}
+
+.buscador input[type="text"] {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.buscador input[type="submit"] {
+  background-color: #f7df1e;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.buscador input[type="submit"]:hover {
+  background-color: #ffd700;
+}
+
+/* Estilos del Resultado */
+#resultado {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* Estilos de la Paginación */
+#paginacion {
+  margin-top: 20px;
+}
+
+#paginacion a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  margin-right: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#paginacion a:hover {
+  background-color: #45a049;
+}
